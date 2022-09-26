@@ -1,0 +1,58 @@
+.schedule__tab__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.schedule__tab__wrapper
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: black !important;
+  font-weight: 700;
+}
+
+.schedule__tab__content {
+  width: 100%;
+}
+
+.sehedule__tabs__wrapper {
+  width: 80%;
+}
+.sehedule__tabs__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.sehedule__tabs__wrapper:before,
+.sehedule__tabs__wrapper:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid var(--light-grey);
+  margin: auto;
+}
+.sehedule__tabs__wrapper:before {
+  margin-right: 10px;
+}
+.sehedule__tabs__wrapper:after {
+  margin-left: 10px;
+}
+/* @media only screen and (max-width: 768px) {
+  .sehedule__tabs__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .sehedule__tabs__wrapper  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .sehedule__tabs__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+ */

@@ -1,0 +1,25 @@
+.product_tittle {
+  font-weight: bold;
+  margin-top: 10%;
+}
+.product_price {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.product_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.product_img {
+  width: 220px;
+  height: 220px;
+}
+@media only screen and (max-width: 1200px) {
+  .product_img {
+    width: 180px;
+    height: 180px;
+  }
+}

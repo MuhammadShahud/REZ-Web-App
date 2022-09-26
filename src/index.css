@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,800;1,700&family=Open+Sans:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #3acca7;
+  --secondary-color: #28aec9;
+  --text-color: #2a2a2a;
+  --white-color: #ffff;
+  --black-color: #000;
+  --light-grey: #bebebe;
+  --comment-grey-bg: #f1f1f1;
+  --white2: #fcfcfd;
+  --gradient-bg: linear-gradient(
+    135deg,
+    rgba(58, 204, 167, 1) 0%,
+    rgba(40, 174, 201, 1) 100%
+  );
+
+  --font-family: "Open Sans", sans-serif;
+  --heading-font-family: "Barlow", sans-serif;
+
+  --para-text: #77777e;
+
+  --input-bg: #eff8fd;
+  --profile-btn: #e0e0e0;
+
+  --history-card-bg: #f3f3f3;
+}
+
+li {
+  list-style: none;
+}
+
+.gradient__text {
+  background: var(--gradient-bg);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

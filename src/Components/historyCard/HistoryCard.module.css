@@ -1,0 +1,80 @@
+.classesHistory__wrapper {
+  width: 80%;
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  padding: 8px 15px;
+  margin: 10px 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.classesHistory__wrapper:nth-child(odd) {
+  background-color: var(--history-card-bg);
+}
+
+.classesHistory {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classesHistory__details {
+  display: flex;
+}
+.classesHistory__details img {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.classesHistory__details p {
+  margin: 0;
+  color: var(--text-color);
+}
+.classesHistory__details h5 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.classesHistory__price h5 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.deleteButton {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  background-color: var(--para-text);
+  padding: 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 576px) {
+  .classesHistory__wrapper {
+    width: 100%;
+  }
+  .classesHistory {
+    flex-wrap: wrap;
+  }
+  /* .classesHistory img {
+      display: none;
+    } */
+}
+
+@media only screen and (max-width: 768px) {
+  .classesHistory__wrapper {
+    width: 100%;
+  }
+  .classesHistory {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .classesHistory img {
+    display: none;
+  }
+  .classesHistory__details {
+    width: 100%;
+  }
+}

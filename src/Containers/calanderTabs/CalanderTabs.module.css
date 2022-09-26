@@ -1,0 +1,28 @@
+.schedule__tab__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .schedule__tab__wrapper
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: black !important;
+    font-weight: 700;
+  }
+  
+  .schedule__tab__content {
+    width: 100%;
+  }
+  .calander__facilityDropdown{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .calander__trainingDropdown{
+    margin-right: 3%;
+    width: 100%;
+  }
+  .calander__filterDropdown{
+    width: 100%;
+  }

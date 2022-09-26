@@ -1,0 +1,76 @@
+.leagueHistory__card {
+
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+  }
+  .leagueHistory__card_Data{
+    width: 60%;
+  }
+  .leagueHistory__card_Profile {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .leagueHistory__card_ProfileImg img {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    object-fit: cover;
+  }
+  .leagueHistory__card_ProfileName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  
+  .leagueHistory__card_Description {
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  
+  .leagueHistory__card_PostImg img {
+    margin: 10px 0 10px 0;
+    width: 100%;
+    /* height: 250px; */
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .leagueHistory__card_Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border-bottom: 1px solid var( --light-grey); */
+  }
+  .leagueHistory__card_Buttons button{
+   margin: 5px;
+  }
+  
+@media only screen and (max-width: 992px) {
+  .leagueHistory__card_Data{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .leagueHistory__card_Data{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .leagueHistory__card_Data{
+    width: 100%;
+  }
+}
+  
+  

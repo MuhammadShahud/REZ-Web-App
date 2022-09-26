@@ -1,0 +1,19 @@
+.createleague__modal .ant-modal-header,
+.createleague__modal .ant-modal-content {
+  border-radius: 10px;
+}
+.ant-modal-title {
+  font-weight: "bold" !important;
+}
+.form_checkbox {
+  margin-right: 7%;
+}
+@media only screen and (max-width: 568px) {
+  .createleague__modal .ant-modal-header,
+  .createleague__modal .ant-modal-content {
+    margin: 25px;
+  }
+  .ant-modal-body {
+    padding: 20px !important;
+  }
+}

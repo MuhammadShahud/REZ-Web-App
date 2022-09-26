@@ -1,0 +1,25 @@
+.home__facilities__card {
+  text-align: center;
+  transition: all 0.6 ease;
+  background-color: var(--white2);
+  padding: 5px 0;
+}
+
+.facilities__card__button {
+  position: relative;
+  height: 20px;
+  text-align: center;
+}
+
+.home__facilities__card p {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: large;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.home__facilities__card:hover {
+  background-color: var(--white-color);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

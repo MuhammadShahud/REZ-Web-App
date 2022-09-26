@@ -1,0 +1,122 @@
+.auth {
+  min-height: 95vh;
+  width: 100%;
+  background: var(--gradient-bg);
+}
+
+.auth__logo {
+  text-align: center;
+}
+
+.auth__modal {
+  width: 40% !important;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.signup__otherOption p {
+  margin: 0;
+}
+.signup__otherOption p:first-child {
+  margin: 0;
+  font-weight: bold;
+}
+
+.signup__otherOption > section {
+  margin: 10px 0;
+}
+.signup__otherOption > section img {
+  margin: 0 5px;
+}
+
+.signup__otherOption a {
+  font-weight: bold;
+}
+
+.login__remember {
+  margin: 0 20px;
+  color: black;
+}
+.login__remember input {
+  margin-right: 10px;
+}
+.login__forget {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.login__signup{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.login__text{
+  padding-right: 2%;
+}
+.forgetModal__h3 > h3{
+  font-weight: bolder;
+  display: flex;
+  /* justify-content: center; */
+}
+.forgetModal__body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3% 0;
+}
+.forgetModal__text{
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+.forgetModal__email{
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+.forgetModal__btn{
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+.forgetModal__head{
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+width: 100%;
+}
+.forgetModal__closeIcon{
+  display: flex;
+  justify-content: right;
+  font-size:x-large;
+  cursor: pointer;
+}
+@media only screen and (max-width: 992px) {
+  .auth__modal {
+    width: 60% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .auth__modal {
+    width: 90% !important;
+  }
+  .login__input input {
+    width: 80% !important;
+  }
+  .login__input select {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .login__remember label {
+    font-size: small !important;
+  }
+  .login__remember input {
+    margin: 0 10px;
+  }
+  .login__remember {
+    margin: 0 10px;
+  }
+}

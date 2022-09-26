@@ -1,0 +1,35 @@
+.facility__img img {
+  border-radius: 10px;
+}
+.facility__col span {
+  font-weight: bold;
+  margin-top: 5%;
+  font-family: var(--font-family);
+}
+.facility__col {
+  cursor: pointer;
+}
+.facility__row {
+  margin: 0;
+}
+.facility__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.facility__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.facility__container h5 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin-top: 3%;
+}
+.facility__container p {
+  color: var(--para-text);
+}

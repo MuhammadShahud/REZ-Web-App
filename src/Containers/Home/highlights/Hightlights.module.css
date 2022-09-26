@@ -1,0 +1,31 @@
+.highlight__list {
+  width: 100%;
+  padding-left: 3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.highlight__list li {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 20px;
+  padding: 15px;
+  border-bottom: 1px solid var(--light-grey);
+  list-style-position: inside;
+}
+
+.highlight__list li small {
+  display: block;
+  font-size: small;
+  color: var(--text-color);
+}
+.highlight__list li:hover {
+  color: var(--secondary-color);
+  border-right: 5px solid transparent;
+  border-image: linear-gradient(
+    180deg,
+    rgba(58, 204, 167, 1) 0%,
+    rgba(40, 174, 201, 1) 100%
+  );
+  border-image-slice: 1;
+  cursor: pointer;
+}

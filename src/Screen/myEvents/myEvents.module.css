@@ -1,0 +1,25 @@
+.myevents__card {
+  /* max-width: 400px; */
+}
+
+.myevents__card__img {
+  width: 100%;
+}
+.myevents__card__img img {
+  width: 100%;
+  border-radius: 15px;
+}
+.myevents__card__content {
+  width: 100%;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+.myevents__card__content h6 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin: 0;
+}
+.myevents__card__content small {
+  font-weight: bold;
+  color: var(--para-text);
+}

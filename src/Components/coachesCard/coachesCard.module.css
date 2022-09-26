@@ -1,0 +1,27 @@
+.coaches__card {
+  /* max-width: 200px; */
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.coaches__card h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  margin: 5px 0;
+}
+.coaches__card p {
+  margin: 0;
+  color: var(--text-color);
+}
+
+.coaches__card small {
+  display: block;
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: medium;
+}
+
+.coaches__card img {
+  width: 100%;
+  border-radius: 8px;
+}

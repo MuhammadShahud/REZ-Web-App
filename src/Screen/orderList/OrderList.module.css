@@ -1,0 +1,12 @@
+.orderlist__searchBox {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.orderlist__orderWrapper > section {
+  width: 100% !important;
+}
+.orderlist__orderWrapper {
+  width: 60%;
+  margin: 0 auto;
+}

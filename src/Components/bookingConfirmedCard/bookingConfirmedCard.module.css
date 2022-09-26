@@ -1,0 +1,31 @@
+.bookingConfirmed__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+}
+.bookingConfirmed__card_Data{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.bookingConfirmed__card_DataFields{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+.bookingConfirmed__card_FlexCol{
+    display: flex;
+    flex-direction: column;
+}
+.bookingConfirmed__card_FlexRow{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+.bookingConfirmed__card_FlexColCategory{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+}

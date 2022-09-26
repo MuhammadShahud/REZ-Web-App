@@ -1,0 +1,51 @@
+.dataCardPlayerMain {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.dataCardPlayerInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.CalanderCard {
+  display: flex;
+  /* flex-direction: column; */
+  /* width: 80%; */
+  justify-content: center;
+  /* flex-direction: column;
+  align-items: center; */
+}
+.CalanderCardList {
+  width: 60%;
+  /* background-color: aqua; */
+}
+
+.calender__viewBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.calender__viewBtn p {
+  margin: 0;
+  color: var(--black);
+}
+
+.calender__viewBtn p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .CalanderCardList {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .CalanderCardList {
+    width: 100%;
+    /* background-color: aqua; */
+  }
+}

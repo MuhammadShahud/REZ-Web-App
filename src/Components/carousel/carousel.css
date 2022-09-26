@@ -1,0 +1,39 @@
+.ant-carousel-vertical .slick-dots-right {
+  right: 20% !important;
+}
+.rez__carousel {
+  position: relative;
+}
+
+.rez__carousel__contain {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  z-index: 1;
+}
+
+.rez__carousel__contain h1,
+.rez__carousel__contain h6 {
+  color: var(--white-color);
+  font-family: var(--heading-font-family);
+}
+
+@media only screen and (max-width: 576px) {
+  .ant-carousel-vertical .slick-dots-right {
+    right: 8% !important;
+  }
+  .rez__carousel__contain h1 {
+    font-size: 22px;
+  }
+  .rez__carousel__contain h6 {
+    font-size: 18px;
+  }
+  .rez__carousel__contain {
+    top: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .ant-carousel-vertical .slick-dots-right {
+    right: 8% !important;
+  }
+}

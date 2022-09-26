@@ -1,0 +1,5 @@
+.home__facilities__card {
+  text-align: center;
+  transition: all 0.6 ease;
+  background-color: var(--white2);
+}

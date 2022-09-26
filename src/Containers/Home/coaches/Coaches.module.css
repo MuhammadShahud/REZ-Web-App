@@ -1,0 +1,9 @@
+.home__coaches {
+  width: 100%;
+}
+.home__coaches__card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}

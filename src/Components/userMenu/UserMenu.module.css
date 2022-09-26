@@ -1,0 +1,40 @@
+.profileDrop {
+  background-color: transparent !important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px !important;
+  cursor: pointer;
+  font-family: var(--heading-font-family);
+  padding: 0 !important;
+}
+.profileDrop:focus {
+  box-shadow: none !important;
+}
+.profileDrop img {
+  margin: 0 10px;
+}
+
+.profileDrop svg {
+  margin: 0 10px;
+}
+
+.profileDrop::after {
+  content: none !important;
+}
+
+.dropDown__list {
+  padding: 8px 25px !important  ;
+}
+.dropDown__list a {
+  border-bottom: 1px solid var(--light-grey);
+  font-size: 14px;
+}
+.dropDown__list a:hover {
+  background-color: transparent;
+}
+
+.dropDown__list a:last-child {
+  border-bottom: none;
+}

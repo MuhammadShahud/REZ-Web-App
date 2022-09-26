@@ -1,0 +1,105 @@
+.BookingHistory__wrapper {
+    width: 80%;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    padding: 8px 15px;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .BookingHistory__wrapper:nth-child(odd) {
+    background-color: var(--history-card-bg);
+  }
+  
+  .BookingHistory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .BookingHistory__details {
+    display: flex;
+  }
+  .BookingHistory__details img {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .BookingHistory__details p {
+    margin: 0;
+    color: var(--text-color);
+  }
+  .BookingHistory__details h5 {
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+  }
+  
+  .BookingHistory__price h5 {
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+    display: flex;
+    justify-content: right;
+  }
+  .BookingHistory__details img{
+      border-radius: 50px;
+  }
+  .BookingHistory__price{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    background-color: var(--para-text);
+    padding: 5px;
+    cursor: pointer;
+  }
+  .BookingHistory__btns{
+      display: flex;
+      justify-content: center;
+  }
+  @media only screen and (max-width: 576px) {
+    .BookingHistory__wrapper {
+      width: 100%;
+    }
+    .BookingHistory {
+      flex-wrap: wrap;
+    }
+    .BookingHistory__price h5 {
+        display: flex;
+        justify-content: left;
+      }
+    /* .classesHistory img {
+        display: none;
+      } */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .BookingHistory__wrapper {
+      width: 100%;
+    }
+    .BookingHistory {
+      flex-wrap: wrap;
+    }
+    .BookingHistory__price h5 {
+        display: flex;
+        justify-content: left;
+      }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .BookingHistory img {
+      display: none;
+    }
+    .BookingHistory__details {
+      width: 100%;
+    }
+    .BookingHistory__price h5 {
+        display: flex;
+        justify-content: left;
+      }
+  }
+  

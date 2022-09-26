@@ -1,0 +1,39 @@
+.training {
+  padding: 8px;
+}
+
+.trainingCard {
+  border-bottom: 1px solid var(--light-grey);
+  display: flex;
+  padding: 15px 5px;
+  cursor: pointer;
+}
+.trainingCard__img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.trainingCard__details {
+  margin: 0 10px;
+}
+.trainingCard__details h4,
+.trainingCard__details p {
+  margin: 0;
+}
+
+.trainingCard__details h4 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.trainingCard__details p {
+  color: var(--para-text);
+}
+
+.trainingCard__details small {
+  font-weight: bold;
+}
+.trainingCard__details button {
+  margin: 10px 0;
+}

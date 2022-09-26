@@ -1,0 +1,16 @@
+.listheading {
+    display: flex;
+    justify-content: space-between;
+  }
+.store_list{
+  margin-bottom: 10%;
+}
+
+@media (max-width: 600px) {
+  .listheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

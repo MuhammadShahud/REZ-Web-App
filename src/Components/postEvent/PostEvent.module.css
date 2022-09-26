@@ -1,0 +1,104 @@
+.post__card {
+
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: aqua; */
+}
+
+.post__card_Data {
+  width: 80%;
+}
+
+.post__card_Profile {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.post__card_ProfileImg img {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  object-fit: cover;
+}
+
+.post__card_ProfileName {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.post__card_InterestedButton {
+  display: flex;
+  position: absolute;
+  right: 0;
+  justify-content: center;
+
+}
+
+.post__card_Description {
+  margin: 10px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.post__card_PostImg img {
+  margin: 10px 0 10px 0;
+  width: 100%;
+  /* height: 250px; */
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.post__card_Event {
+  display: flex;
+  flex-direction: row;
+  width: '100%';
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.post__card_EventDate {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.post__card_EventInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.post__card_Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.post__card_Buttons button {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .post__card_InterestedButton {
+    width: 80px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .post__card_InterestedButton {
+    width: 80px;
+  }
+}

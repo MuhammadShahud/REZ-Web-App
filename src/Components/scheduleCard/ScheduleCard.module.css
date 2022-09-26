@@ -1,0 +1,59 @@
+.scheduleCard {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  min-height: 450px;
+}
+.scheduleCard__wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20px 10px;
+  padding: 5px;
+  width: 45%;
+  cursor: pointer;
+}
+.scheduleCard__box {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.scheduleCard h1 {
+  margin: 0;
+}
+.scheduleCard h2 {
+  color: var(--para-text);
+  font-weight: bold;
+}
+
+.scheduleCard__content {
+  margin: 0 10px;
+}
+.scheduleCard__content h6,
+.scheduleCard__content p {
+  margin: 0;
+}
+.scheduleCard__content h6 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.scheduleCard__content p {
+  color: var(--para-text);
+}
+
+.noPara {
+  margin: 0 10px;
+  font-weight: bold;
+  color: var(--para-text);
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .scheduleCard__wrapper {
+    width: 100%;
+  }
+}

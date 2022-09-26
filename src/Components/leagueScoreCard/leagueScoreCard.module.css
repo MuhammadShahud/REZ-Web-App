@@ -1,0 +1,32 @@
+.leagueScore__card {
+
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.leagueScore__card_Data {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--comment-grey-bg);
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.leagueScore__card_ScoreData {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leagueScore__teamProfile {
+    border: 1px solid var(--comment-grey-bg);
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

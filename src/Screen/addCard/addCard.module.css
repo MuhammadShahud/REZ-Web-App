@@ -1,0 +1,31 @@
+.rezz__addCard {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.addCard__cardIcon {
+  width: 100%;
+  border: 2px solid #0570de;
+  padding: 8px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+.addCard__cardIcon p {
+  font-weight: bold;
+  margin: 0;
+  margin: 0 5px;
+}
+
+@media only screen and (max-width: 992px) {
+  .rezz__addCard {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .rezz__addCard {
+    width: 90% !important;
+  }
+}

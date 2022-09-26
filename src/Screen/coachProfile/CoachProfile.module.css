@@ -1,0 +1,106 @@
+.profile {
+  width: 100%;
+}
+.profile__wrapper {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.profile__img img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.profile__details {
+  margin: 0 10px;
+}
+.profile__details h4 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin: 0;
+}
+
+.profile__details_table table {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.profile__details_table table td {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.profile__details_bio {
+  margin: 0;
+  margin: 10px 0;
+  color: var(--text-color);
+}
+
+.profile__btn {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.profile__btn button {
+  margin: 0 10px;
+}
+
+.training {
+  padding: 8px;
+}
+
+.trainingCard {
+  border-bottom: 1px solid var(--light-grey);
+  display: flex;
+  padding: 15px 5px;
+}
+.trainingCard__img img {
+  width: 130px;
+  height: 130px;
+  border-radius: 8px;
+}
+
+.trainingCard__details {
+  margin: 0 10px;
+}
+.trainingCard__details h4,
+.trainingCard__details p {
+  margin: 0;
+}
+
+.trainingCard__details h4 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.trainingCard__details p {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.trainingCard__details small {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+  .profile__wrapper {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile__wrapper {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .profile__wrapper {
+    width: 90% !important;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,47 @@
+.home__club {
+  background-image: url("../../../Assets/football\ club.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  padding: 3rem;
+}
+
+.home__club div h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  margin: 0;
+}
+
+.club__box__wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.club__box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid var(--light-grey);
+  margin: 10px 0;
+  margin-right: 10px;
+  text-align: center;
+  padding: 10px 0;
+}
+.club__box p {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: large;
+}
+.club__box h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 460px) {
+  .club__box__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

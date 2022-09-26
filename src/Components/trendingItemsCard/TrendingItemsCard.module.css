@@ -1,0 +1,31 @@
+.product_price {
+  color: var(--secondary-color);
+}
+.product_card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.product_detail {
+  height: 50%;
+  width: 100%;
+}
+.view_more {
+  margin-left: 25%;
+}
+.product_detail {
+  margin-left: 10%;
+}
+
+@media only screen and (max-width: 992px) {
+  .view_more {
+    margin-left: 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .view_more {
+    margin-left: 30%;
+  }
+}

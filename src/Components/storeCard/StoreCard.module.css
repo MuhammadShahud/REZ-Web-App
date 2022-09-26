@@ -1,0 +1,20 @@
+.store__card {
+  /* background-color: red; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: var(--white);
+  margin: 10px 0;
+}
+.store__card div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.store__card img {
+  margin: 0 auto;
+}
+.store__card div h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  width: 35px;
+  line-height: 1.2rem;
+}

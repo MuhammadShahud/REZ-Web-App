@@ -1,0 +1,47 @@
+.modifyDetails__inputLeft{
+    width: 100%;
+    margin:  0 10px;
+}
+.modifyDetails__inputRight{
+    width: 100%;
+    margin:  0 10px;
+}
+.modifyDetails__mainDiv{
+    display: flex;
+    margin: 10% 0;
+}
+.modifyDetails__subInputRight{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+.modifyDetails__subInputRight span{
+    width: 100%;
+    
+}
+.modifyDetails__startTime{
+    margin-right: 5px;
+}
+.modifyDetails__endTime{
+    margin-left: 5px;
+}
+.modifyDetails__btns{
+    display: flex;
+    justify-content: center;
+}
+.modifyDetails__container{
+    margin: 5% 0;
+}
+@media only screen and (max-width: 767px) {
+    .modifyDetails__container{
+        height: 100%;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .modifyDetails__container{
+        height: 100%;
+    }
+  }
+
+  

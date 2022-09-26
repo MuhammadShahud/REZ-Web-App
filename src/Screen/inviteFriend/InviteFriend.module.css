@@ -1,0 +1,82 @@
+.inviteFriendCard {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.inviteFriendData {
+  display: flex;
+  width: 50%;
+}
+
+.inviteFriendData p {
+  margin: 0;
+  color: var(--para-text);
+  font-size: 13px;
+}
+.inviteFriendData h4 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  color: #536273;
+  font-size: 16px;
+}
+
+.inviteFriendData img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 10px;
+}
+
+.inviteFriendButton {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.inviteFriendButton button {
+  width: 130px;
+  height: 30px;
+  margin: 0 10px;
+  font-size: small;
+}
+
+.inviteFriendButton button:last-child {
+  background: none;
+  background-color: var(--secondary-color) !important;
+}
+
+.cardsWrapper {
+  min-height: 70vh;
+}
+
+@media only screen and (max-width: 992px) {
+  .inviteFriendCard {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inviteFriendCard {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .inviteFriendCard {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .inviteFriendData {
+    width: 100%;
+  }
+  .inviteFriendButton {
+    width: 100%;
+    margin: 10px 0;
+    justify-content: flex-start;
+  }
+}

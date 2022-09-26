@@ -1,0 +1,22 @@
+.createContract__textArea {
+  padding: 8px;
+  outline: none;
+  background-color: var(--input-bg);
+  width: 100%;
+  border: none;
+}
+
+.passesHeading h6 {
+  margin: 0;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin: 10px 0;
+}
+.contractIcon {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.contract__form__wrapper {
+  min-height: 80vh;
+}

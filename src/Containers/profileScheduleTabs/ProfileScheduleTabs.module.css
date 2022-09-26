@@ -1,0 +1,25 @@
+.profile__tabs button {
+  margin: 5px 10px;
+}
+.profile__tabs {
+  width: 55%;
+}
+
+@media only screen and (max-width: 992px) {
+  .profile__tabs {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile__tabs {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .profile__tabs {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,28 @@
+.follow__card {
+    /* transition: all 0.6 ease; */
+    /* padding: 5px 0; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 80%;
+}
+
+.follow__card_userInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.follow__card__button{
+    display: flex;
+    width: 50%;
+}
+
+@media only screen and (max-width: 576px) {
+    .follow__card {
+        width: 60%;
+    }
+  }

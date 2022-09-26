@@ -1,0 +1,27 @@
+.home__form {
+  margin: 0 0.5rem;
+  width: 100%;
+}
+.rez__label {
+  display: block;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  margin: 0 0.5rem;
+}
+
+.rez__input {
+  padding: 8px;
+  outline: none;
+  background-color: var(--input-bg);
+  width: 100%;
+  border: none;
+  /* margin: 0 0.5rem; */
+}
+
+.rez__input::placeholder {
+  font-size: small;
+  color: var(--text-color);
+  font-weight: 500;
+}

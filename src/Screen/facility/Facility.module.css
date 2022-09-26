@@ -1,0 +1,29 @@
+.facility__img img {
+  border-radius: 10px;
+}
+.facility__col span {
+  font-weight: bold;
+  margin-top: 5%;
+  font-family: var(--font-family);
+  cursor: pointer;
+}
+.facility__row {
+  margin: 0;
+}
+.facility__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  cursor: pointer;
+}
+.facility__btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.follow__search {
+  width: 100%;
+}

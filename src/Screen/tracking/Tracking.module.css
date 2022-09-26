@@ -1,0 +1,28 @@
+/* .tracking__map{
+    height: 400%;
+} */
+.tracking__info{
+    display: flex;
+    flex-direction: row;
+}
+.tracking__info h6{
+    font-weight: bold;
+}
+.tracking__detail{
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+}
+.tracking__detail span{
+    color: var(--para-text);
+}
+.tracking__container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.tracking__btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2%;
+}

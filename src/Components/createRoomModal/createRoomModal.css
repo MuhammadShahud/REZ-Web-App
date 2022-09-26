@@ -1,0 +1,10 @@
+.product__modal .ant-modal-header,
+.product__modal .ant-modal-content {
+  border-radius: 10px;
+}
+.form_checkbox {
+  margin-right: 7%;
+}
+.ant-modal-title {
+  font-weight: bold !important;
+}

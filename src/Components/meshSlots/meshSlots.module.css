@@ -1,0 +1,86 @@
+.mesh__card {
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mesh__buttonCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.mesh__textFieldsCenter {
+    width: 30%;
+    text-align: center;
+}
+
+.mesh__inputFieldsCenter {
+    width: 30%;
+    margin: 10px 0;
+    background-color: var(--comment-grey-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.mesh__inputFields {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.mesh__input {
+    width: 97%;
+    background-color: var(--input-bg);
+    border: none;
+    outline: none;
+    padding: 8px;
+    margin: 0 0.5rem;
+}
+
+.mesh__input::placeholder {
+    font-size: small;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .mesh__textFieldsCenter {
+        width: 100%;
+        text-align: center;
+    }
+    .mesh__inputFieldsCenter {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mesh__textFieldsCenter {
+        width: 100%;
+        text-align: center;
+    }
+    .mesh__inputFieldsCenter {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .mesh__textFieldsCenter {
+        width: 100%;
+        text-align: center;
+    }
+    .mesh__inputFieldsCenter {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

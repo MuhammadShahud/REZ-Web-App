@@ -1,0 +1,37 @@
+.profile__tabs button {
+  margin: 5px 10px;
+}
+.profile__tabs {
+  width: 55%;
+}
+.profile__btn{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.profile__top{
+  cursor: pointer;
+}
+.profile__filterBtn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .profile__tabs {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profile__tabs {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 556px) {
+  .profile__tabs {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+}

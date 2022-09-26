@@ -1,0 +1,57 @@
+.appointment_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: "300px";
+}
+.appointment_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.appointment_date_time_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 2% 0% 2% 0%;
+}
+.appointmen_text p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.appointment_buttons_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 32%;
+  margin: 2% 0% 2% 0%;
+}
+.appointment_note_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5% 0% 15% 0%;
+}
+.appointment_buttons {
+  width: 45%;
+  height: 50px;
+}
+@media only screen and (max-width: 1000px) {
+  .appointment_buttons_box {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .appointment_buttons_box {
+    width: 100%;
+  }
+  .appointment_note_box {
+    flex-direction: column;
+  }
+  .appointment_date_time_box {
+    flex-direction: column;
+  }
+}

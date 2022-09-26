@@ -1,0 +1,26 @@
+.roster__card {
+  /* transition: all 0.6 ease; */
+  /* padding: 5px 0; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--light-grey);
+  /* background-color: aqua; */
+  width: 100%;
+}
+
+.roster__card_userInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.roster__card__button {
+  display: flex;
+  width: 100%;
+}
+.roster__main {
+  min-height: 450px;
+}

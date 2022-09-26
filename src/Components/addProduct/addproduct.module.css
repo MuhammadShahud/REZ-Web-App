@@ -1,0 +1,95 @@
+.rezButton {
+  background: var(--text-color);
+  width: 100px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.addbtn {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 40%;
+}
+.form {
+  padding-bottom: 20px;
+  border-bottom: 1.5px solid rgb(207, 207, 207);
+}
+.form_input {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0%;
+}
+.form_input_checkbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0%;
+}
+.form_item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  width: 100%;
+}
+.form_checkbox {
+  margin-right: 7%;
+}
+
+.addproduct__label {
+  display: block;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  margin: 0 0.5rem;
+}
+.addproduct__textarea {
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  width: 100%;
+  border: 1px solid var(--light-grey);
+  resize: none;
+}
+.addproduct__checkbox {
+  transform: scale(1.5);
+}
+.addproduct__label__checkbox {
+  margin-left: 10px;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+}
+.addproduct__btn{
+  display: flex ;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3% 0;
+}
+.addproduct__btn > p {
+  font-weight: bold;
+  margin: 0;
+}
+@media only screen and (max-width: 568px) {
+  .addbtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-left: 0%;
+  }
+  .form_checkbox {
+    margin-right: 2%;
+  }
+  .form_input {
+    flex-direction: column;
+    margin: 4% 0%;
+  }
+  .form_item {
+    margin: 4% 0%;
+  }
+}

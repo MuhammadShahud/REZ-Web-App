@@ -1,0 +1,8 @@
+.rez__dropDown {
+  width: 100%;
+  background-color: var(--input-bg);
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 0 0.5rem;
+}

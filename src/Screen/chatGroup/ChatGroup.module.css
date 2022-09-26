@@ -1,0 +1,119 @@
+.chatGroup__colRight{
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--light-grey);
+    box-shadow: 0px 2px 20px var(--light-grey);
+    
+}
+.chatGroup__colLeft{
+    
+    margin-right: 2%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--light-grey);
+    box-shadow: 0px 2px 20px var(--light-grey)
+}
+.chatGroup__mainDiv{
+    margin-bottom: 10%;
+    
+}
+.chatGroup__row{
+    justify-content: center;
+    display: flex;
+}
+.chatGroup__colLeft h4{
+    font-weight: bold;
+    margin: 10% 0;
+}
+.chatGroup__colLeft h6{
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.chatGroup__midContainer{
+    height: 350px;
+    overflow-y: scroll;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.chatGroup__bottomContainer{
+    padding-bottom: 7%;
+    padding-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+.chatGroup__topContainer{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    display: flex;
+    justify-content: center;
+}
+.chatGroup__topContainer h6{
+    font-weight: bold;
+}
+.chatGroup__memList{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    
+}
+.chatGroup__memName{
+    display: flex;
+    width: 33%;
+}
+.chatGroup__avatar{
+    margin-right: 5%;
+}
+.chatGroup__num{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+.chatGroup__editIcon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.chatGroup__description p{
+    display: flex;
+    align-items: flex-end;
+}
+.chatGroup__midContainer::-webkit-scrollbar {
+    width: 10px;
+  }
+.chatGroup__midContainer::-webkit-scrollbar-track {
+    background: var(--light-grey); 
+  }
+   
+  /* Handle */
+  .chatGroup__midContainer::-webkit-scrollbar-thumb {
+    background: var(--black-color); 
+  }
+  
+  /* Handle on hover */
+  .chatGroup__midContainer::-webkit-scrollbar-thumb:hover {
+    background: var(--text-color); 
+  }
+  @media (max-width: 800px){
+    .chatGroup__colLeft{
+        
+        height: 300px;
+        margin-right: 0%;
+    }
+    .chatGroup__colRight{
+        margin-top: 3%;
+    }
+    
+    .chatGroup__colLeft{
+        height: auto;
+    }
+}

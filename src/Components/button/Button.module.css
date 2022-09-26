@@ -1,0 +1,10 @@
+.rezButton {
+  background: var(--gradient-bg);
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: var(--white-color);
+  cursor: pointer;
+  font-weight: 700;
+}

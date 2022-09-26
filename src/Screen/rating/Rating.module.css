@@ -1,0 +1,31 @@
+.rating__rateRowTop{
+    display: flex;
+    flex-direction: row;
+};
+.rating__subRateRowTop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.rating__list{
+    margin-top: 5%;
+    width: 100%;
+    
+}
+
+.rating__review{
+    margin-top: 100% !important;
+    font-weight: bold;
+}
+.rating__mainDiv{
+    margin-left: 15%;
+    margin-right: 15%;
+   
+}
+.rating__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}

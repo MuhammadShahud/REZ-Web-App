@@ -1,0 +1,140 @@
+.leagueDetails__img img{
+    border-radius: 30px;
+}
+.leagueDetails__clubs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+.leagueDetails__clubScores h3{
+    font-weight: bold;
+}
+.leagueDetails__anotherClub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leagueDetails__oneClub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leagueDetails__anotherClub h5{
+    margin: 5% 0;
+    color: var(--black-color);
+}
+.leagueDetails__oneClub h5{
+   margin: 5% 0;
+   color: var(--black-color);
+}
+.leagueDetails__leagueDescription h2 {
+    font-weight: bold;
+    color: var(--black-color);
+}
+.leagueDetails__leagueDescription h5{
+    margin: 15px 0;
+    color: var(--black-color);
+
+}
+.leagueDetails__leagueSchedule{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 0;
+    align-items: center;
+}
+.leagueDetails__leagueSchedule p{
+    color: var(--black-color);
+}
+.leagueDetails__updatebtns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+.leagueDetails__btns{
+    border-top: 1px solid var(--light-grey);
+    padding-top: 2%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: right;
+}
+.leagueDetails__btn{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    margin-left: 2%;
+    border: none;
+    align-items: center;
+    margin-top: 0;
+}
+.leagueDetails__inputFiled input::-webkit-input-placeholder {
+    padding: 5px;
+    }
+.leagueDetails__textArea textarea::-webkit-input-placeholder {
+    padding: 5px;
+}
+.leagueDetails__inputFiled input{
+    outline: none;
+}
+.leagueDetails__textArea textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: 1px solid var(--light-grey);
+  }
+  .leagueDetails__textArea label {
+      display: flex;
+      align-items: flex-end;
+    font-weight: bold;
+    padding: 1% 2%;
+    margin-bottom: 0;
+  }
+  .leagueDetails__twoInputs{
+      display: flex;
+      align-items: center;
+}
+.leagueDetails__inputOne{
+    width: 100%;
+    margin: 1% 0;
+}
+.leagueDetails__inputSrtTime{
+    width: 100%;
+    margin-right: 10px;
+}
+.leagueDetails__chooseFile{
+    border: 1px solid var(--light-grey);
+    width: 49%;
+    margin: 10px 0;
+}
+.leagueDetails__chooseFile input{
+    padding: 2%;
+}
+  @media only screen and (max-width: 992px) {
+    .leagueDetails__img img{
+        width: 100%;
+    }
+    .leagueDetails__clubs{
+        
+        margin: 10% 0;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .leagueDetails__img img{
+        width: 100%;
+    }
+    .leagueDetails__clubs{
+        
+        margin: 10% 0;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .leagueDetails__img img{
+        width: 100%;
+    }
+  }

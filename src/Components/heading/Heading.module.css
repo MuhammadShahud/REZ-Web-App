@@ -1,0 +1,24 @@
+.home__headings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.home__headings h1 {
+  /* text-align: center; */
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+}
+.home__headings div {
+  width: 80px;
+  height: 5px;
+  background: var(--gradient-bg);
+  margin: 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .home__headings h1 {
+    font-size: 25px;
+  }
+}

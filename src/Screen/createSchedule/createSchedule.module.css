@@ -1,0 +1,48 @@
+.create__schedule__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.create__schedule__input {
+  width: 50%;
+  margin: 0.5% 0%;
+}
+.create__schedule__label {
+  display: block;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  margin: 0 0.5rem;
+}
+.create__schedule__button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1% 0%;
+}
+.create__schedule__textarea {
+  width: 100%;
+  padding: 8px;
+  outline: none;
+  background-color: var(--input-bg);
+  width: 100%;
+  border: none;
+  resize: none;
+}
+.create__schedule__time__input {
+  padding: 8px;
+  outline: none;
+  background-color: var(--input-bg);
+  width: 100%;
+  border: none;
+}
+@media only screen and (max-width: 992px) {
+  .create__schedule__input {
+    width: 80%;
+  }
+}

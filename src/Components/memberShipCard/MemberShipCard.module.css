@@ -1,0 +1,22 @@
+.memberShip__card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 25px 15px;
+  margin: 10px 0;
+}
+.memberShip__card h3,
+.memberShip__card h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  margin: 0;
+}
+.memberShip__card h1 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  font-size: 60px;
+  margin: 0;
+}
+.memberShip__card li {
+  color: var(--para-text);
+  margin: 5px 0;
+}

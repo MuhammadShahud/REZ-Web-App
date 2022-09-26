@@ -1,0 +1,247 @@
+.myStaff__img img {
+  border-radius: 10px;
+}
+.myStaff__col span {
+  font-weight: bold;
+  margin-top: 5%;
+  font-family: var(--font-family);
+}
+.myStaff__row {
+  margin: 0;
+}
+.myStaff__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 15%; */
+  margin: 10px 0;
+  cursor: pointer;
+}
+.myStaff__loadBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.myStaff__container p {
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+.myStaff__addstaff {
+  background: var(--gradient-bg);
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 15%; */
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.myStaff__addstaff h3 {
+  color: var(--white-color);
+  font-weight: bold;
+  font-family: var(--font-family);
+}
+.myStaff__formInput {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 3% 0;
+}
+.myStaff__formInput label {
+  font-weight: bold;
+}
+.myStaff__formInput input {
+  border-color: var(--para-text);
+}
+.myStaff__formInput select {
+  width: 100%;
+  
+}
+.myStaff__inputOne {
+  width: 100%;
+}
+.myStaff__inputTwo {
+  width: 100%;
+  margin-left: 8%;
+}
+
+.myStaff__btns {
+  border-top: 1px solid var(--light-grey);
+  padding-top: 2%;
+  margin-top: 5%;
+  display: flex;
+  justify-content: right;
+}
+.myStaff__btn {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  margin-left: 2%;
+  border: none;
+  align-items: center;
+  margin-top: 0;
+}
+.myStaff__btn:active {
+  border: none;
+}
+.myStaff__colZero {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+/* .myStaff__formInput{
+    display: flex;
+    margin-top: -2%;
+} */
+/* .myStaff__formInputOne{
+    margin-top: 2%;
+} */
+/* .myStaff__formInputtwo{
+    margin-top: 2%;
+} */
+
+.myStaff__inputOne select {
+  width: 100%;
+  height: 40px;
+}
+.myStaff__twoInputs {
+  display: flex;
+  align-items: center;
+}
+.myStaff__inputOne {
+  width: 100%;
+  margin: 1% 0;
+}
+.myStaff__inputOne label {
+  display: block;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  margin: 0 0.5rem !important;
+}
+.myStaff__inputSrtTime {
+  width: 100%;
+  margin-right: 10px;
+}
+.myStaff__textArea textarea::-webkit-input-placeholder {
+  padding: 5px;
+}
+.myStaff__inputFiled input {
+  outline: none;
+}
+.myStaff__textArea textarea {
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: 1px solid var(--light-grey);
+}
+.myStaff__textArea label {
+  display: block;
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+}
+.myStaff__textArea label {
+  display: flex;
+  align-items: flex-end;
+  font-weight: bold;
+  padding: 1% 2%;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  .myStaff__addstaff {
+    width: 203px;
+    height: 203px;
+  }
+  /* .myStaff__formInput{
+        display: flex;
+        flex-direction: column;
+    }
+    .myStaff__inputTwo{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .myStaff__formInput input{
+        width: 100%; 
+        margin: 2% 0;
+    }
+    .myStaff__formInput select{
+        width: 100%; 
+        margin: 2% 0;
+    } */
+}
+@media only screen and (max-width: 992px) {
+  .myStaff__addstaff {
+    width: 143px;
+    height: 143px;
+  }
+  /* .myStaff__formInput{
+        display: flex;
+        flex-direction: column;
+    }
+    .myStaff__inputTwo{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .myStaff__formInput input{
+        width: 100%; 
+        margin: 2% 0;
+    }
+    .myStaff__formInput select{
+        width: 100%; 
+        margin: 2% 0;
+    } */
+}
+@media only screen and (max-width: 767px) {
+  .myStaff__addstaff {
+    width: 269px;
+    height: 269px;
+  }
+  /*.myStaff__formInput{
+        display: flex;
+        flex-direction: column;
+    }
+     .myStaff__inputTwo{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .myStaff__formInput input{
+        width: 100%; 
+        margin: 2% 0;
+    }
+    .myStaff__formInput select{
+        width: 100%; 
+        margin: 2% 0;
+    } */
+}
+@media only screen and (max-width: 300px) {
+  .myStaff__addstaff {
+    width: 100%;
+    height: 100%;
+  }
+  /* .myStaff__formInput{
+        display: flex;
+        flex-direction: column;
+    }
+    .myStaff__inputTwo{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .myStaff__formInput input{
+        width: 100%; 
+        margin: 2% 0;
+    }
+    .myStaff__formInput select{
+        width: 100%; 
+        margin: 2% 0;
+    } */
+}

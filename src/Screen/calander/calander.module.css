@@ -1,0 +1,18 @@
+.calander__buttonCenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.calander__Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calander__Fields {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

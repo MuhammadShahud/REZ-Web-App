@@ -1,0 +1,22 @@
+.bookAppointment__buttonCenter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.bookAppointment__inputFieldsCenter {
+  width: 50%;
+  margin: 20px 0;
+}
+
+.bookAppointment__inputFields {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookAppointment__Fields {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

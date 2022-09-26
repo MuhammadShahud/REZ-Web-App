@@ -1,0 +1,47 @@
+.facilitiesCard {
+  max-width: 550px;
+  display: flex;
+  margin: 10px 0;
+}
+.facilitiesCard__content {
+  display: flex;
+}
+.facilitiesCard__date {
+  margin: 0 10px;
+}
+
+.facilitiesCard__date h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin: 0;
+}
+.facilitiesCard__date h3 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  color: var(--para-text);
+}
+
+.facilitiesCard__content {
+  /* border: 2px solid green; */
+}
+
+.facilitiesCard__img img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.facilitiesCard__details {
+  margin: 0 10px;
+}
+.facilitiesCard__details h4 {
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.facilitiesCard__details h5 {
+  font-weight: bold;
+  color: var(--para-text);
+}

@@ -1,0 +1,93 @@
+.teamteamDetails__wallpaper {
+    height: 400px;
+  }
+  .teamDetails__wallpaper img {
+    border-radius: 35px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .teamDetails__wallpaper,
+  .teamDetails__content {
+    margin: 10px 0;
+  }
+  .teamDetails__content h6 {
+    font-size: small;
+    font-weight: bold;
+    font-family: var(--heading-font-family);
+  }
+  
+  .teamDetails__content h4,
+  .teamDetails__participants h6 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    margin: 0;
+    margin: 10px 0;
+  }
+  .teamDetails__content p {
+    color: var(--para-text);
+    font-weight: bold;
+  }
+  .teamDetails__content{
+      margin: 5% 0;
+  }
+  
+  .teamDetails__participants {
+    margin: 20px 0;
+  }
+  .teamDetails__participants__profile {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .teamDetails__participants img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  .teamDetails__schedule {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .teamDetails__schedule svg {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+  }
+  .teamDetails__botDetails{
+      width: 33.33%;
+  }
+  
+  .teamDetails__schedule span {
+    font-weight: bold;
+    margin: 0 5px;
+    
+  }
+  
+  .teamDetails__price h6,
+  .teamDetails__price p {
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    color: var(--black);
+  }
+  
+  .teamDetails__price p {
+    color: var(--secondary-color) !important;
+    margin: 0 5px;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .teamDetails__participants__profile {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .teamDetails__participants__profile img {
+      margin: 10px;
+    }
+  }
+  

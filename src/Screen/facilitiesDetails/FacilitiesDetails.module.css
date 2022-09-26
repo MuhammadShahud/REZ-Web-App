@@ -1,0 +1,131 @@
+.details__wallpaper {
+  height: 400px;
+}
+.details__wallpaper img {
+  border-radius: 35px;
+  width: 100%;
+  height: 100%;
+}
+
+.details__wallpaper,
+.details__content {
+  margin: 10px 0;
+}
+.details__content h6 {
+  font-size: small;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+
+.details__content h4,
+.details__participants h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  margin: 0;
+  margin: 10px 0;
+}
+.details__content p {
+  color: var(--para-text);
+  font-weight: bold;
+}
+
+.details__participants {
+  margin: 20px 0;
+}
+.details__participants__profile {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.details__participants img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.details__schedule {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.details__schedule svg {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.details__schedule small {
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.details__price h6,
+.details__price p {
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.details__price p {
+  color: var(--secondary-color) !important;
+  margin: 0 5px;
+}
+
+.details__time {
+  display: flex;
+  align-items: center;
+}
+.details__time div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.details__time div p {
+  margin: 0;
+  font-size: small;
+}
+
+.details__time small {
+  font-weight: bold;
+  margin: 0 5px;
+  font-size: small;
+}
+.details__time h6 {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin: 0;
+}
+
+.timeModal {
+  top: 40% !important;
+  min-width: 60%;
+}
+.timeModalBac {
+  background: rgba(255, 255, 255, 0.6);
+}
+.modalContent {
+  background-color: transparent !important;
+  border: none !important;
+}
+.timeSlotBody section h5 {
+  text-align: center;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+  margin: 20px 0;
+}
+.timeSlotBody button {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .details__participants__profile {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .details__participants__profile img {
+    margin: 10px;
+  }
+}

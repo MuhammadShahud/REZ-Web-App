@@ -1,0 +1,54 @@
+.leagues__tab__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leagues__tab__wrapper
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: black !important;
+  font-weight: 700;
+  text-transform: none !important;
+}
+.leagues__tab__wrapper .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  text-transform: none !important;
+  font-size: 18px;
+}
+.leagues__tab__wrapper .css-19kzrtu {
+  padding: 0;
+}
+.leagues__tab__wrapper .css-1aquho2-MuiTabs-indicator {
+  height: 0px !important;
+}
+
+.leagues__tab__content {
+  width: 100%;
+}
+
+.leagues__tabs__wrapper {
+  width: 100%;
+}
+.leagues__tabs__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.leagues__tabs__wrapper:before,
+.leagues__tabs__wrapper:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid var(--light-grey) !important;
+  margin: auto;
+}
+.leagues__tabs__wrapper:before {
+  margin-right: 10px;
+}
+.leagues__tabs__wrapper:after {
+  margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .leagues__tab__wrapper .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-transform: none !important;
+    font-size: 14px;
+    padding: 3px !important;
+  }
+}
